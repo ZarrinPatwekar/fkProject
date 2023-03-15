@@ -41,7 +41,7 @@
     margin-top: 2rem; */
     /* padding: unset; */
     color: white;
-    background-color: #3b4d7c;
+    background-color: black;
     border-radius: 0.5rem;
 }
 
@@ -82,4 +82,8 @@
     .wbaby-right div h2 {
         font-size: 1.8rem;
     }
+}
+.text{
+    color: #000000;
+    font-family: "Raleway";
 }

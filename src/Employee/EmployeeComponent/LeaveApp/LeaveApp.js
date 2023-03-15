@@ -20,7 +20,7 @@ export default function LeaveApp() {
                 {!showNewComponent && (<>
                     {/* <div> */}
                     <div>
-                        <h2>Leave Application</h2>
+                        <h2 className="text">Leave Application</h2>
                         {/* <button variant="primary" onClick={handleClick}><RiAddFill style={{ paddingRight: "0.3rem" }} />
                             Add
                         </button> */}

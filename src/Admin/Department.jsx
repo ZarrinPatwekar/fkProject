@@ -57,8 +57,8 @@ const Department = () => {
   return (
     <div className="table-container">
       <div className="header">
-        <h3>Department Details</h3>
-        <Button className="add-button" onClick={handleAdd}>
+        <h3 className="text">Department Details</h3>
+        <Button className="add-button btn-dark" onClick={handleAdd}>
         <i className="bi bi-plus-lg"></i>Add 
         </Button>
       </div>
@@ -87,7 +87,7 @@ const Department = () => {
 
       <Modal show={showAdd} onHide={() => setShowAdd(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Add New Row</Modal.Title>
+          <Modal.Title className="text">Add New Row</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -111,10 +111,10 @@ const Department = () => {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowAdd(false)}>
+          <Button variant="btn btn-dark" className="btn" onClick={() => setShowAdd(false)}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleAddSave}>
+          <Button variant="btn btn-dark" className="btn" onClick={handleAddSave}>
             Save Changes
           </Button>
         </Modal.Footer>
@@ -122,7 +122,7 @@ const Department = () => {
 
       <Modal show={showEdit} onHide={() => setShowEdit(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit Row</Modal.Title>
+          <Modal.Title className="text">Edit Row</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -146,10 +146,10 @@ const Department = () => {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowEdit(false)}>
+          <Button variant="btn btn-dark" className="btn" onClick={() => setShowEdit(false)}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleEditSave}>
+          <Button variant="btn btn-dark" className="btn" onClick={handleEditSave}>
             Save Changes
           </Button>
         </Modal.Footer>

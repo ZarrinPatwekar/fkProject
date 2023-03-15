@@ -105,7 +105,7 @@ export default function ETable() {
             {showNewComponent && (
                 <div>
                     <div className='form-header'>
-                        <h2>{editIndex === null ? 'Add Education Details' : 'Edit Education Details'}</h2>
+                        <h2 className="text">{editIndex === null ? 'Add Education Details' : 'Edit Education Details'}</h2>
                     </div>
                     <div className='form-detail'>
                         <form onSubmit={handleSubmit}>

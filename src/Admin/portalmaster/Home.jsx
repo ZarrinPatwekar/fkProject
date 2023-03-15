@@ -28,12 +28,12 @@ function Home(id) {
   }
   return (
      <>
-      <div style={{margin:"5em"}}>
+      <div>
       <nav className='navbar shadow-sm'>
           <div className="container-fluid mb-5">
               <h2>Portal Details</h2>
               <Link to="/add">
-                <button type="button" className="btn btn-primary">+</button>
+                <button type="button" className="btn btn-dark">+Add</button>
               </Link>
           </div>
       </nav>

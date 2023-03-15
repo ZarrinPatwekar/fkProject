@@ -32,7 +32,7 @@ export default function WorkExp() {
                 {!showNewComponent && (<>
                     {/* <div> */}
                     <div>
-                        <h2>Employee Work Experience Details</h2>
+                        <h2 className="text" >Employee Work Experience Details</h2>
                         {/* <button variant="primary" onClick={handleClick}><RiAddFill style={{ paddingRight: "0.3rem" }} />
                             Add
                         </button> */}

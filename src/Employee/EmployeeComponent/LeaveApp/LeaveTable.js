@@ -65,7 +65,7 @@ export default function LeaveTable() {
         <div>
             {!showNewComponent && (
                 <div className='ladd-button'>
-                    <button onClick={() => setShowNewComponent(true)}>Add Details</button>
+                    <button className="text"  onClick={() => setShowNewComponent(true)}>Add Details</button>
                 </div>
             )}
             {!showNewComponent && (
